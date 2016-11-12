@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<%@ include file="/WEB-INF/include/include-header.jspf" %>
+<%@ include file="/WEB-INF/include/include-header.jspf" %> 
 </head>
 <body>
 	<table width="100%" border = "0" cellpadding="2" cellspacing="0">
