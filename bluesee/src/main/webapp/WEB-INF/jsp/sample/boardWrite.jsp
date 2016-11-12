@@ -5,6 +5,16 @@
 <%@ include file="/WEB-INF/include/include-header.jspf" %>
 </head>
 <body>
+	<table width="100%" border = "0" cellpadding="2" cellspacing="0">
+	
+	<tr>
+    <td colspan = "2"> <div><%@ include file="/WEB-INF/include/menu.jspf" %></div> </td>
+   </tr>
+   <tr>
+    <td width = "3%" valign="top">
+     <div><%@ include file="/WEB-INF/include/leftMenu.jspf" %></div>
+    </td>	
+	<td width = "90%" valign="top">
 	<form id="frm" name="frm" enctype="multipart/form-data">
 		<table class="board_view">
 			<colgroup>
@@ -37,7 +47,13 @@
 		<a href="#this" class="btn" id="list">목록으로</a>
 	</form>
 	
-	<%@ include file="/WEB-INF/include/include-body.jspf" %>
+			</td>
+	</tr>
+	  <tr>
+    <td colspan="2">
+     <%@ include file="/WEB-INF/include/include-body.jspf" %>
+    </td>
+   </tr>
 	<script type="text/javascript">
 		var gfv_count = 1;
 	
